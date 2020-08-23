@@ -24,6 +24,9 @@ router.post("/cars",   async (req, res) => {
             model: req.body.model,
             VIN: req.body.VIN,
             mileage: req.body.mileage,   
+            transmission: req.body.trans,   
+            mileage: req.body.mileage,   
+            title: req.body.title,
         })
         .into("cars")
         
